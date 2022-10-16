@@ -12,8 +12,14 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Material App Bar'),
       ),
-      body: const Center(
-        child: Text('Hello World'),
+      body: Center(
+        child: MaterialButton(
+          child: Icon (Icons.person),
+          color: Colors.blue,
+          onPressed: () {
+            Navigator.of(context).pushNamed("/profile");
+          }
+        ),
       ),
     );
   }
