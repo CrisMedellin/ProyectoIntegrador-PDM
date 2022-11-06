@@ -1,3 +1,4 @@
+import 'package:bibliteso/pages/camera/camera.dart';
 import 'package:bibliteso/pages/home/home_page.dart';
 import 'package:bibliteso/pages/loan/loan.dart';
 import 'package:bibliteso/pages/profile/profile.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'BiblITESO',
           // initialRoute: '/home_page',
-          home: HomePage(),
+          home: Camera(),
           routes: {
             '/home_page' : (context) => HomePage(),
             '/profile' : (context) => Profile(),
