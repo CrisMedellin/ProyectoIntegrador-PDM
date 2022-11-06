@@ -1,4 +1,5 @@
 import 'package:bibliteso/bloc/search_book_bloc.dart';
+import 'package:bibliteso/camera_qr.dart/camera.dart';
 import 'package:bibliteso/items/item_book.dart';
 import 'package:bibliteso/pages/search/menu_laterarl.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,19 @@ class SearchPage extends StatelessWidget {
       drawer: MenuLateral(),
       appBar: AppBar(
         title: const Text('Biblioteca Dr. Jorge Villalobos Padilla, SJ'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.shopping_cart),
+            tooltip: 'Open shopping cart',
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => Camera(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [

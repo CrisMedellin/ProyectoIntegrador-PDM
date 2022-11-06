@@ -16,7 +16,17 @@ dependencies:
   share_plus:
   flutter_shimmer:
   flutter_share:
-  font_awesome_flutter: ^10.2.1
+  # UI widgets:
+  font_awesome_flutter:
+  auth_buttons: 
+  # Firebase plugins:
+  firebase_core:
+  firebase_auth:
+  flutterfire_ui:
+  cloud_firestore:
+  google_sign_in:
+  image_picker:
+  qr_code_scanner: 
 
 dev_dependencies:
   flutter_test:

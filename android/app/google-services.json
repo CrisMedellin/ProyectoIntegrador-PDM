@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "626183228545",
+    "project_id": "pdm-cm",
+    "storage_bucket": "pdm-cm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626183228545:android:44452add51cd5862fc1180",
+        "android_client_info": {
+          "package_name": "com.example.bibliteso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626183228545-08t7bn4vp3pmj9n2ejpvhmnfetg6u8vg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bibliteso",
+            "certificate_hash": "8d750476f8f6c43ca056989824dd129b6ba0b9e6"
+          }
+        },
+        {
+          "client_id": "626183228545-qhnmjn2gka80vs2kloshpsi8qg597218.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl73FhnvPTsAEyE0B9V1oL_FDwwwj2_To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626183228545-qhnmjn2gka80vs2kloshpsi8qg597218.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
