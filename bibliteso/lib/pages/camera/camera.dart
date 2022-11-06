@@ -30,7 +30,7 @@ class _CameraState extends State<Camera> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Material App Bar'),
+        title: const Text('QR Scanner'),
       ),
       body: Center(
         child: Column (
